@@ -35,5 +35,5 @@ import ReactDOM from "react-dom";
 
 // import StickCom from "./components/StickCom";
 
-import CommentCase from "./components/StickCom";
+import CommentCase from "./components/CommentCase";
 ReactDOM.render(<CommentCase />, document.getElementById("root"));
