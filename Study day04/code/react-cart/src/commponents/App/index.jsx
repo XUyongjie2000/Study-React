@@ -70,7 +70,11 @@ class App extends React.Component {
           //找到list（数组）的某一个对象
           if (item.id === option.id) {
             //说明已经找到这个对象了
-            return { ...item, num: option.num < 0 ? 0 : option.num };
+            //不用解构方法
+            item.num = option.num < 0 ? 0 : option.num;
+            //结构方法
+            // return { ...item, num: option.num < 0 ? 0 : option.num };
+            return item;
           } else {
             return item;
           }
@@ -82,7 +86,9 @@ class App extends React.Component {
         //遍历旧list
         list: list.map((item) => {
           if (item.id === option.id) {
-            return { ...item, num: item.num + 1 < 0 ? 0 : item.num + 1 };
+            item.num = item.num < 0 ? 0 : item.num + 1;
+            // return { ...item, num: item.num + 1 < 0 ? 0 : item.num + 1 };
+            return item;
           } else {
             return item;
           }
@@ -92,7 +98,9 @@ class App extends React.Component {
       this.setState({
         list: list.map((item) => {
           if (item.id === option.id) {
-            return { ...item, num: item.num - 1 < 0 ? 0 : item.num - 1 };
+            item.num = item.num <= 0 ? 0 : item.num - 1;
+            // return { ...item, num: item.num - 1 < 0 ? 0 : item.num - 1 };
+            return item;
           } else {
             return item;
           }
