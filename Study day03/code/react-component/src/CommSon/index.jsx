@@ -1,5 +1,7 @@
 import React from "react";
+import propTypes from "prop-types"
 
+import {Consumer} from "../../"
 class CommSon extends React.Component {
       render() {
           return(
