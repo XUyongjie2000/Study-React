@@ -1,0 +1,28 @@
+/* xxx-enter 进入动画执行之前绑定的类名 */
+/* xxx-enter-active 进入动画执行中绑定的类名 */
+/* xxx-enter-done 进入动画执行完绑定的类名 */
+
+/* 需求：点击按钮 让div慢慢显示出来 */
+
+.box-enter {
+  /* xxx-enter 进入动画执行之前绑定的类名 */
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  background-color: aquamarine;
+}
+.box-enter-active {
+  /* xxx-enter-active 进入动画执行中绑定的类名 */
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  background-color: aquamarine;
+  transition: 3s;
+}
+.box-enter-done {
+  /* xxx-enter-done 进入动画执行完绑定的类名 */
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  background-color: aquamarine;
+}
