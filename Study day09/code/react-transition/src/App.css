@@ -26,3 +26,47 @@
   opacity: 1;
   background-color: aquamarine;
 }
+
+/*退出动画 */
+.box-exit {
+  /* xxx-exit 退出动画执行之前绑定的类名 */
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  background-color: aquamarine;
+}
+.box-exit-active {
+  /* xxx-exit-active 退出动画执行中绑定的类名 */
+  width: 10px;
+  height: 10px;
+  opacity: 0.5;
+  background-color: aquamarine;
+  transition: 3s;
+}
+.box-exit-done {
+  /* xxx-exit-done 退出动画执行完绑定的类名 */
+  width: 10px;
+  height: 10px;
+  opacity: 0.5;
+  background-color: aquamarine;
+}
+
+/* .box-appear {
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  background-color: aquamarine;
+}
+.box-appear-active {
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  background-color: aquamarine;
+  transition: 3s;
+}
+.box-appear-done {
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  background-color: aquamarine;
+} */

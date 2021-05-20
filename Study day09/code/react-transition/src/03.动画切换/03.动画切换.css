@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+
+.box-enter {
+  width: 120px;
+  height: 40px;
+  opacity: 0;
+  transform: translate(-100%);
+}
+.box-enter-active {
+  width: 120px;
+  height: 40px;
+  opacity: 1;
+  transform: translate(0%);
+  transition: all 1s;
+}
+.box-enter-done {
+  width: 120px;
+  height: 40px;
+  opacity: 1;
+  transform: translate(0%);
+}
+
+.box-exit {
+  width: 120px;
+  height: 40px;
+  opacity: 1;
+  transform: translate(0%);
+}
+.box-exit-active {
+  width: 120px;
+  height: 40px;
+  opacity: 0;
+  transform: translate(100%);
+  transition: all 1s;
+}
+.box-exit-done {
+  width: 120px;
+  height: 40px;
+  opacity: 0;
+  transform: translate(100%);
+}
