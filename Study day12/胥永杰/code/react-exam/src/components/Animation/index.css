@@ -1,0 +1,49 @@
+.box-enter {
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+  margin-left: 500px;
+  background-color: aquamarine;
+}
+.box-enter-active {
+  width: 200px;
+  height: 200px;
+  opacity: 1;
+  margin-left: 0;
+  background-color: aquamarine;
+  transition: all 3s;
+}
+
+.box-enter-done {
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+  margin-left: 500px;
+  transition: all 3s;
+
+  background-color: aquamarine;
+}
+
+/* .box-exit {
+  width: 200px;
+  height: 200px;
+  opacity: 1;
+  margin-left: 0;
+  background-color: aquamarine;
+}
+.box-exit-active {
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+  margin-left: 500px;
+  background-color: aquamarine;
+  transition: all 3s;
+}
+
+.box-exit-done {
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+  margin-left: 500px;
+  background-color: aquamarine;
+} */
