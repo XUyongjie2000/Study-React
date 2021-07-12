@@ -1,0 +1,9 @@
+.App {
+  width: 200px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.App .num {
+  background-color: pink;
+}
